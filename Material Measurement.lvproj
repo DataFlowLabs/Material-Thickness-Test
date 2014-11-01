@@ -1,7 +1,16 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="13008000">
+<Project Type="Project" LVVersion="14008000">
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
+	<Property Name="SMProvider.SMVersion" Type="Int">201310</Property>
 	<Item Name="My Computer" Type="My Computer">
+		<Property Name="IOScan.Faults" Type="Str"></Property>
+		<Property Name="IOScan.NetVarPeriod" Type="UInt">100</Property>
+		<Property Name="IOScan.NetWatchdogEnabled" Type="Bool">false</Property>
+		<Property Name="IOScan.Period" Type="UInt">10000</Property>
+		<Property Name="IOScan.PowerupMode" Type="UInt">0</Property>
+		<Property Name="IOScan.Priority" Type="UInt">9</Property>
+		<Property Name="IOScan.ReportModeConflict" Type="Bool">true</Property>
+		<Property Name="IOScan.StartEngineOnDeploy" Type="Bool">false</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.tcp.enabled" Type="Bool">false</Property>
@@ -61,7 +70,6 @@
 				</Item>
 				<Item Name="Error" Type="Folder">
 					<Item Name="FTW-ERR-AbstractMethodCall.vi" Type="VI" URL="../../Reuse Library/featherweight/Core/Error/FTW-ERR-AbstractMethodCall.vi"/>
-					<Item Name="FTW-ERR-CallChain.vi" Type="VI" URL="../../Reuse Library/featherweight/Core/Error/FTW-ERR-CallChain.vi"/>
 					<Item Name="FTW-ERR-Clear.vi" Type="VI" URL="../../Reuse Library/featherweight/Core/Error/FTW-ERR-Clear.vi"/>
 					<Item Name="FTW-ERR-ExceptionType.ctl" Type="VI" URL="../../Reuse Library/featherweight/Core/Error/FTW-ERR-ExceptionType.ctl"/>
 					<Item Name="FTW-ERR-NoErrorConstant.vi" Type="VI" URL="../../Reuse Library/featherweight/Core/Error/FTW-ERR-NoErrorConstant.vi"/>
@@ -255,6 +263,9 @@
 		<Item Name="Plugins" Type="Folder">
 			<Item Name="Database API" Type="Folder">
 				<Item Name="Database-API.lvclass" Type="LVClass" URL="../../Reuse Library/Database API/Database-API.lvclass"/>
+			</Item>
+			<Item Name="FlexMotion Control" Type="Folder">
+				<Item Name="FlexMotion_Control.lvclass" Type="LVClass" URL="../../ITS-FlexMotion/FlexMotion_Control.lvclass"/>
 			</Item>
 			<Item Name="Motion Control" Type="Folder">
 				<Item Name="Motion-ControlAll.lvclass" Type="LVClass" URL="../Plugins/Motion Control/Motion-ControlAll.lvclass"/>
@@ -502,7 +513,14 @@
 				<Item Name="Variant to Header Info__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Variant to Header Info__ogtk.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
+				<Item Name="Axis #" Type="VI" URL="/&lt;vilib&gt;/Motion/FlexMotion/CustomControls/CustomControls.llb/Axis #"/>
+				<Item Name="Axis # (8 axes).flx" Type="VI" URL="/&lt;vilib&gt;/Motion/FlexMotion/CustomControls/CustomControls.llb/Axis # (8 axes).flx"/>
+				<Item Name="AxisOrVectorSpace To Configure.flx" Type="VI" URL="/&lt;vilib&gt;/Motion/FlexMotion/CustomControls/CustomControls.llb/AxisOrVectorSpace To Configure.flx"/>
+				<Item Name="AxisOrVectorSpace To Control.flx" Type="VI" URL="/&lt;vilib&gt;/Motion/FlexMotion/CustomControls/CustomControls.llb/AxisOrVectorSpace To Control.flx"/>
+				<Item Name="AxisOrVectorSpaceControl To Control.flx" Type="VI" URL="/&lt;vilib&gt;/Motion/FlexMotion/CustomControls/CustomControls.llb/AxisOrVectorSpaceControl To Control.flx"/>
+				<Item Name="Bd Id Out" Type="VI" URL="/&lt;vilib&gt;/Motion/FlexMotion/CustomControls/CustomControls.llb/Bd Id Out"/>
 				<Item Name="Bit-array To Byte-array.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/Bit-array To Byte-array.vi"/>
+				<Item Name="Board Id" Type="VI" URL="/&lt;vilib&gt;/Motion/FlexMotion/CustomControls/CustomControls.llb/Board Id"/>
 				<Item Name="BuildErrorSource.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/fileVersionInfo.llb/BuildErrorSource.vi"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="Check Path.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Check Path.vi"/>
@@ -510,7 +528,9 @@
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="Close File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Close File+.vi"/>
 				<Item Name="compatReadText.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatReadText.vi"/>
+				<Item Name="Configure Vector Space.flx" Type="VI" URL="/&lt;vilib&gt;/Motion/FlexMotion/FunctionsVIs/AxisResourceConfig.llb/Configure Vector Space.flx"/>
 				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Convert property node font to graphics font.vi"/>
+				<Item Name="Create Error Out Cluster.flx" Type="VI" URL="/&lt;vilib&gt;/Motion/FlexMotion/FunctionsVIs/ErrorUtility.llb/Create Error Out Cluster.flx"/>
 				<Item Name="Create Mask By Alpha.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Create Mask By Alpha.vi"/>
 				<Item Name="DAQmx Clear Task.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/configure/task.llb/DAQmx Clear Task.vi"/>
 				<Item Name="DAQmx Create AI Channel (sub).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/channels.llb/DAQmx Create AI Channel (sub).vi"/>
@@ -658,7 +678,7 @@
 				<Item Name="Find Tag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find Tag.vi"/>
 				<Item Name="FixedFileInfo_Struct.ctl" Type="VI" URL="/&lt;vilib&gt;/Platform/fileVersionInfo.llb/FixedFileInfo_Struct.ctl"/>
 				<Item Name="Format Message String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Format Message String.vi"/>
-				<Item Name="General Error Handler CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler CORE.vi"/>
+				<Item Name="General Error Handler Core CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler Core CORE.vi"/>
 				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
 				<Item Name="Get String Text Bounds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Get String Text Bounds.vi"/>
 				<Item Name="Get Text Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Get Text Rect.vi"/>
@@ -670,9 +690,15 @@
 				<Item Name="GOOP Object Repository Statistics.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/_goopsup.llb/GOOP Object Repository Statistics.ctl"/>
 				<Item Name="GOOP Object Repository.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/_goopsup.llb/GOOP Object Repository.vi"/>
 				<Item Name="imagedata.ctl" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/imagedata.ctl"/>
+				<Item Name="Initialize Controller.flx" Type="VI" URL="/&lt;vilib&gt;/Motion/FlexMotion/FunctionsVIs/Initialization.llb/Initialize Controller.flx"/>
+				<Item Name="Inp Vect" Type="VI" URL="/&lt;vilib&gt;/Motion/FlexMotion/CustomControls/CustomControls.llb/Inp Vect"/>
+				<Item Name="Load Acceleration/Deceleration.flx" Type="VI" URL="/&lt;vilib&gt;/Motion/FlexMotion/FunctionsVIs/Trajectory.llb/Load Acceleration/Deceleration.flx"/>
+				<Item Name="Load Vector Space Position.flx" Type="VI" URL="/&lt;vilib&gt;/Motion/FlexMotion/FunctionsVIs/Trajectory.llb/Load Vector Space Position.flx"/>
+				<Item Name="Load Velocity.flx" Type="VI" URL="/&lt;vilib&gt;/Motion/FlexMotion/FunctionsVIs/Trajectory.llb/Load Velocity.flx"/>
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVPointTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPointTypeDef.ctl"/>
+				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
 				<Item Name="MoveMemory.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/fileVersionInfo.llb/MoveMemory.vi"/>
 				<Item Name="NI_Database_API.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/database/NI_Database_API.lvlib"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
@@ -684,17 +710,22 @@
 				<Item Name="Read From Spreadsheet File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read From Spreadsheet File.vi"/>
 				<Item Name="Read Lines From File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Lines From File.vi"/>
 				<Item Name="Read PNG File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/png.llb/Read PNG File.vi"/>
+				<Item Name="Resource Out (Enum).flx" Type="VI" URL="/&lt;vilib&gt;/Motion/FlexMotion/CustomControls/CustomControls.llb/Resource Out (Enum).flx"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
+				<Item Name="Set Operation Mode.flx" Type="VI" URL="/&lt;vilib&gt;/Motion/FlexMotion/FunctionsVIs/Trajectory.llb/Set Operation Mode.flx"/>
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
-				<Item Name="Style Book Templates.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/_LabVIEW Style Book/Style Book Templates.lvlib"/>
+				<Item Name="Start Motion (6 axes).flx" Type="VI" URL="/&lt;vilib&gt;/Motion/FlexMotion/FunctionsVIs/StartStopMotion.llb/Start Motion (6 axes).flx"/>
+				<Item Name="Start Motion (8 axes).flx" Type="VI" URL="/&lt;vilib&gt;/Motion/FlexMotion/FunctionsVIs/StartStopMotion.llb/Start Motion (8 axes).flx"/>
+				<Item Name="Start Motion.flx" Type="VI" URL="/&lt;vilib&gt;/Motion/FlexMotion/FunctionsVIs/StartStopMotion.llb/Start Motion.flx"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
+				<Item Name="Vector Space To Control.flx" Type="VI" URL="/&lt;vilib&gt;/Motion/FlexMotion/CustomControls/CustomControls.llb/Vector Space To Control.flx"/>
 				<Item Name="VerQueryValue.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/fileVersionInfo.llb/VerQueryValue.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 				<Item Name="Write Spreadsheet String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Spreadsheet String.vi"/>
@@ -817,12 +848,14 @@
 			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="FlexMotion32.dll" Type="Document" URL="FlexMotion32.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
 			<Item Name="FTW-ERR-CallChain.vi" Type="VI" URL="../../ftw-dataflow/Core/src/Error/FTW-ERR-CallChain.vi"/>
 			<Item Name="FTW-ERR-Clear.vi" Type="VI" URL="../../ftw-dataflow/Core/src/Error/FTW-ERR-Clear.vi"/>
 			<Item Name="FTW-ERR-NoErrorConstant.vi" Type="VI" URL="../../ftw-dataflow/Core/src/Error/FTW-ERR-NoErrorConstant.vi"/>
 			<Item Name="FTW-ERR-SerializeForLog.vi" Type="VI" URL="../../Reuse Library/featherweight/Core/Error/FTW-ERR-SerializeForLog.vi"/>
 			<Item Name="FTW-ERR-StatusOK.vi" Type="VI" URL="../../ftw-dataflow/Core/src/Error/FTW-ERR-StatusOK.vi"/>
-			<Item Name="FTW-ERR-ThrowError.vi" Type="VI" URL="../../ftw-dataflow/Core/src/Error/FTW-ERR-ThrowError.vi"/>
 			<Item Name="FTW-ERR-ThrowImpossibleError.vi" Type="VI" URL="../../ftw-dataflow/Core/src/Error/FTW-ERR-ThrowImpossibleError.vi"/>
 			<Item Name="FTW-ERR-UnknownJob.vi" Type="VI" URL="../../Reuse Library/featherweight/Core/Error/FTW-ERR-UnknownJob.vi"/>
 			<Item Name="FTW-ERR-UnknownMessage.vi" Type="VI" URL="../../Reuse Library/featherweight/Core/Error/FTW-ERR-UnknownMessage.vi"/>
@@ -836,7 +869,6 @@
 			<Item Name="FTW-JSON-Interpret-String.vi" Type="VI" URL="../../ftw-dataflow/Core/src/JSON/FTW-JSON-Interpret-String.vi"/>
 			<Item Name="FTW-JSON-RegexHeader.vi" Type="VI" URL="../../ftw-dataflow/Core/src/JSON/FTW-JSON-RegexHeader.vi"/>
 			<Item Name="FTW-JSON-RegexParse.vi" Type="VI" URL="../../ftw-dataflow/Core/src/JSON/FTW-JSON-RegexParse.vi"/>
-			<Item Name="FTW-JSON-ToLabVIEW_18F8DB7E085E416A97CB8771EE0EB4B3_000.vi" Type="VI" URL="/&lt;instcachedir&gt;/0/FTW-JSON-ToLabVIEW_18F8DB7E085E416A97CB8771EE0EB4B3.lvgen/FTW-JSON-ToLabVIEW_18F8DB7E085E416A97CB8771EE0EB4B3_000.vi"/>
 			<Item Name="FTW-JSON-Unescape.vi" Type="VI" URL="../../ftw-dataflow/Core/src/JSON/FTW-JSON-Unescape.vi"/>
 			<Item Name="FTW-Menu-TagDecode.vi" Type="VI" URL="../../Reuse Library/featherweight/UI/Menu/FTW-Menu-TagDecode.vi"/>
 			<Item Name="FTW-Panel-FrontPanel-Close.vi" Type="VI" URL="../../Reuse Library/featherweight/UI/Panel/FTW-Panel-FrontPanel-Close.vi"/>
