@@ -735,11 +735,116 @@
 				<Item Name="Write To Spreadsheet File (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File (string).vi"/>
 				<Item Name="Write To Spreadsheet File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File.vi"/>
 			</Item>
+			<Item Name="Deploy-Change-Type.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Wirebird Labs LLC/Deploy/Support/Changelog/Item/Deploy-Change-Type.ctl"/>
+			<Item Name="Deploy-Change-Weight.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Wirebird Labs LLC/Deploy/Support/Changelog/Item/Deploy-Change-Weight.ctl"/>
+			<Item Name="Deploy-Change.lvclass" Type="LVClass" URL="/&lt;resource&gt;/Framework/Providers/Wirebird Labs LLC/Deploy/Support/Changelog/Item/Deploy-Change.lvclass"/>
+			<Item Name="Deploy-Changelog-Deserialize-ItemType.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Wirebird Labs LLC/Deploy/Support/Changelog/Deploy-Changelog-Deserialize-ItemType.vi"/>
+			<Item Name="Deploy-Changelog-Deserialize-ItemWeight.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Wirebird Labs LLC/Deploy/Support/Changelog/Deploy-Changelog-Deserialize-ItemWeight.vi"/>
+			<Item Name="Deploy-Changelog-Item.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Wirebird Labs LLC/Deploy/Support/Changelog/Item/Deploy-Changelog-Item.ctl"/>
+			<Item Name="Deploy-Changelog-Serialize-ItemType.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Wirebird Labs LLC/Deploy/Support/Changelog/Deploy-Changelog-Serialize-ItemType.vi"/>
+			<Item Name="Deploy-Changelog-Serialize-ItemWeight.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Wirebird Labs LLC/Deploy/Support/Changelog/Deploy-Changelog-Serialize-ItemWeight.vi"/>
+			<Item Name="Deploy-Changelog.lvclass" Type="LVClass" URL="/&lt;resource&gt;/Framework/Providers/Wirebird Labs LLC/Deploy/Support/Changelog/Deploy-Changelog.lvclass"/>
+			<Item Name="Deploy-FTW-Actor-Address.lvclass" Type="LVClass" URL="/&lt;resource&gt;/Framework/Providers/Wirebird Labs LLC/Deploy/Resources/Featherweight/Core/Actor/Messaging/Address/Deploy-FTW-Actor-Address.lvclass"/>
+			<Item Name="Deploy-FTW-Actor-Broker.lvclass" Type="LVClass" URL="/&lt;resource&gt;/Framework/Providers/Wirebird Labs LLC/Deploy/Resources/Featherweight/Core/Actor/Messaging/Deploy-FTW-Actor-Broker.lvclass"/>
+			<Item Name="Deploy-FTW-Actor.lvclass" Type="LVClass" URL="/&lt;resource&gt;/Framework/Providers/Wirebird Labs LLC/Deploy/Resources/Featherweight/Core/Actor/Instance/Deploy-FTW-Actor.lvclass"/>
+			<Item Name="Deploy-FTW-ActorReference.lvclass" Type="LVClass" URL="/&lt;resource&gt;/Framework/Providers/Wirebird Labs LLC/Deploy/Resources/Featherweight/Core/Actor/Reference/Deploy-FTW-ActorReference.lvclass"/>
+			<Item Name="Deploy-FTW-App-StringToVersion.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Wirebird Labs LLC/Deploy/Resources/Featherweight/Core/Application/Deploy-FTW-App-StringToVersion.vi"/>
+			<Item Name="Deploy-FTW-App-StringVersionToString.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Wirebird Labs LLC/Deploy/Resources/Featherweight/Core/Application/Deploy-FTW-App-StringVersionToString.vi"/>
+			<Item Name="Deploy-FTW-App-VersionToString.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Wirebird Labs LLC/Deploy/Resources/Featherweight/Core/Application/Deploy-FTW-App-VersionToString.vi"/>
+			<Item Name="Deploy-FTW-Collection-KeyEncode.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Wirebird Labs LLC/Deploy/Resources/Featherweight/Core/Collection/Deploy-FTW-Collection-KeyEncode.vi"/>
+			<Item Name="Deploy-FTW-Collection-KeyValue-JSON-Deserialize.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Wirebird Labs LLC/Deploy/Resources/Featherweight/Core/Collection/Deploy-FTW-Collection-KeyValue-JSON-Deserialize.vi"/>
+			<Item Name="Deploy-FTW-Collection-KeyValue-JSON-Serialize.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Wirebird Labs LLC/Deploy/Resources/Featherweight/Core/Collection/Deploy-FTW-Collection-KeyValue-JSON-Serialize.vi"/>
+			<Item Name="Deploy-FTW-Collection-KeyValuePair.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Wirebird Labs LLC/Deploy/Resources/Featherweight/Core/Collection/Deploy-FTW-Collection-KeyValuePair.ctl"/>
+			<Item Name="Deploy-FTW-Collection-KeyVariantPair.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Wirebird Labs LLC/Deploy/Resources/Featherweight/Core/Collection/Deploy-FTW-Collection-KeyVariantPair.ctl"/>
+			<Item Name="Deploy-FTW-Collection.lvclass" Type="LVClass" URL="/&lt;resource&gt;/Framework/Providers/Wirebird Labs LLC/Deploy/Resources/Featherweight/Core/Collection/Deploy-FTW-Collection.lvclass"/>
+			<Item Name="Deploy-FTW-Container.lvclass" Type="LVClass" URL="/&lt;resource&gt;/Framework/Providers/Wirebird Labs LLC/Deploy/Resources/Featherweight/Core/Container/Deploy-FTW-Container.lvclass"/>
+			<Item Name="Deploy-FTW-Crypto-PublicKeySignature-Sign.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Wirebird Labs LLC/Deploy/Resources/Featherweight/Security/Encryption/Deploy-FTW-Crypto-PublicKeySignature-Sign.vi"/>
+			<Item Name="Deploy-FTW-Crypto-PublicKeySignature-Verify.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Wirebird Labs LLC/Deploy/Resources/Featherweight/Security/Encryption/Deploy-FTW-Crypto-PublicKeySignature-Verify.vi"/>
+			<Item Name="Deploy-FTW-Crypto-String-Sign.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Wirebird Labs LLC/Deploy/Resources/Featherweight/Security/Encryption/Deploy-FTW-Crypto-String-Sign.vi"/>
+			<Item Name="Deploy-FTW-Crypto-String-Verify.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Wirebird Labs LLC/Deploy/Resources/Featherweight/Security/Encryption/Deploy-FTW-Crypto-String-Verify.vi"/>
+			<Item Name="Deploy-FTW-ERR-AbstractMethodCall.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Wirebird Labs LLC/Deploy/Resources/Featherweight/Core/Error/Deploy-FTW-ERR-AbstractMethodCall.vi"/>
+			<Item Name="Deploy-FTW-ERR-CallChain.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Wirebird Labs LLC/Deploy/Resources/Featherweight/Core/Error/Deploy-FTW-ERR-CallChain.vi"/>
+			<Item Name="Deploy-FTW-ERR-Clear.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Wirebird Labs LLC/Deploy/Resources/Featherweight/Core/Error/Deploy-FTW-ERR-Clear.vi"/>
+			<Item Name="Deploy-FTW-ERR-NoErrorConstant.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Wirebird Labs LLC/Deploy/Resources/Featherweight/Core/Error/Deploy-FTW-ERR-NoErrorConstant.vi"/>
+			<Item Name="Deploy-FTW-ERR-SerializeForLog.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Wirebird Labs LLC/Deploy/Resources/Featherweight/Core/Error/Deploy-FTW-ERR-SerializeForLog.vi"/>
+			<Item Name="Deploy-FTW-ERR-StatusError.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Wirebird Labs LLC/Deploy/Resources/Featherweight/Core/Error/Deploy-FTW-ERR-StatusError.vi"/>
+			<Item Name="Deploy-FTW-ERR-StatusOK.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Wirebird Labs LLC/Deploy/Resources/Featherweight/Core/Error/Deploy-FTW-ERR-StatusOK.vi"/>
+			<Item Name="Deploy-FTW-ERR-ThrowError.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Wirebird Labs LLC/Deploy/Resources/Featherweight/Core/Error/Deploy-FTW-ERR-ThrowError.vi"/>
+			<Item Name="Deploy-FTW-ERR-ThrowGenericError.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Wirebird Labs LLC/Deploy/Resources/Featherweight/Core/Error/Deploy-FTW-ERR-ThrowGenericError.vi"/>
+			<Item Name="Deploy-FTW-ERR-ThrowImpossibleError.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Wirebird Labs LLC/Deploy/Resources/Featherweight/Core/Error/Deploy-FTW-ERR-ThrowImpossibleError.vi"/>
+			<Item Name="Deploy-FTW-ERR-UnknownParameter.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Wirebird Labs LLC/Deploy/Resources/Featherweight/Core/Error/Deploy-FTW-ERR-UnknownParameter.vi"/>
+			<Item Name="Deploy-FTW-File-CreateDirectory.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Wirebird Labs LLC/Deploy/Resources/Featherweight/Core/File/Deploy-FTW-File-CreateDirectory.vi"/>
+			<Item Name="Deploy-FTW-File-UserDirectories.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Wirebird Labs LLC/Deploy/Resources/Featherweight/Core/File/Deploy-FTW-File-UserDirectories.vi"/>
+			<Item Name="Deploy-FTW-File-ValidateFilepath.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Wirebird Labs LLC/Deploy/Resources/Featherweight/Core/File/Deploy-FTW-File-ValidateFilepath.vi"/>
+			<Item Name="Deploy-FTW-FileSystem-CommandLineExecute.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Wirebird Labs LLC/Deploy/Resources/Featherweight/UI/FileSystem/Deploy-FTW-FileSystem-CommandLineExecute.vi"/>
+			<Item Name="Deploy-FTW-JSON-Array-Deserialize.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Wirebird Labs LLC/Deploy/Resources/Featherweight/Core/JSON/Deploy-FTW-JSON-Array-Deserialize.vi"/>
+			<Item Name="Deploy-FTW-JSON-Array-Serialize.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Wirebird Labs LLC/Deploy/Resources/Featherweight/Core/JSON/Deploy-FTW-JSON-Array-Serialize.vi"/>
+			<Item Name="Deploy-FTW-JSON-CompositeType.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Wirebird Labs LLC/Deploy/Resources/Featherweight/Core/JSON/Deploy-FTW-JSON-CompositeType.ctl"/>
+			<Item Name="Deploy-FTW-JSON-Datatype.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Wirebird Labs LLC/Deploy/Resources/Featherweight/Core/JSON/Deploy-FTW-JSON-Datatype.ctl"/>
+			<Item Name="Deploy-FTW-JSON-Escape.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Wirebird Labs LLC/Deploy/Resources/Featherweight/Core/JSON/Deploy-FTW-JSON-Escape.vi"/>
+			<Item Name="Deploy-FTW-JSON-Format-Boolean.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Wirebird Labs LLC/Deploy/Resources/Featherweight/Core/JSON/Deploy-FTW-JSON-Format-Boolean.vi"/>
+			<Item Name="Deploy-FTW-JSON-Format-String.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Wirebird Labs LLC/Deploy/Resources/Featherweight/Core/JSON/Deploy-FTW-JSON-Format-String.vi"/>
+			<Item Name="Deploy-FTW-JSON-Interpret-Array-String.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Wirebird Labs LLC/Deploy/Resources/Featherweight/Core/JSON/Deploy-FTW-JSON-Interpret-Array-String.vi"/>
+			<Item Name="Deploy-FTW-JSON-Interpret-Boolean.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Wirebird Labs LLC/Deploy/Resources/Featherweight/Core/JSON/Deploy-FTW-JSON-Interpret-Boolean.vi"/>
+			<Item Name="Deploy-FTW-JSON-Interpret-String.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Wirebird Labs LLC/Deploy/Resources/Featherweight/Core/JSON/Deploy-FTW-JSON-Interpret-String.vi"/>
+			<Item Name="Deploy-FTW-JSON-RegexHeader.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Wirebird Labs LLC/Deploy/Resources/Featherweight/Core/JSON/Deploy-FTW-JSON-RegexHeader.vi"/>
+			<Item Name="Deploy-FTW-JSON-RegexParse.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Wirebird Labs LLC/Deploy/Resources/Featherweight/Core/JSON/Deploy-FTW-JSON-RegexParse.vi"/>
+			<Item Name="Deploy-FTW-JSON-ToLabVIEW.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Wirebird Labs LLC/Deploy/Resources/Featherweight/Core/JSON/Deploy-FTW-JSON-ToLabVIEW.vi"/>
+			<Item Name="Deploy-FTW-JSON-Unescape.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Wirebird Labs LLC/Deploy/Resources/Featherweight/Core/JSON/Deploy-FTW-JSON-Unescape.vi"/>
+			<Item Name="Deploy-FTW-Log-AddRecord-Error.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Wirebird Labs LLC/Deploy/Resources/Featherweight/Core/Logging/Event/Deploy-FTW-Log-AddRecord-Error.vi"/>
+			<Item Name="Deploy-FTW-Log-AddRecord.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Wirebird Labs LLC/Deploy/Resources/Featherweight/Core/Logging/Event/Deploy-FTW-Log-AddRecord.vi"/>
+			<Item Name="Deploy-FTW-Log-EnqueueEvent.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Wirebird Labs LLC/Deploy/Resources/Featherweight/Core/Logging/Event/Deploy-FTW-Log-EnqueueEvent.vi"/>
+			<Item Name="Deploy-FTW-Log-LookupMessenger.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Wirebird Labs LLC/Deploy/Resources/Featherweight/Core/Logging/Event/Deploy-FTW-Log-LookupMessenger.vi"/>
+			<Item Name="Deploy-FTW-Log-SerializeEvent.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Wirebird Labs LLC/Deploy/Resources/Featherweight/Core/Logging/Event/Deploy-FTW-Log-SerializeEvent.vi"/>
+			<Item Name="Deploy-FTW-Message-Actor-UnknownMessage.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Wirebird Labs LLC/Deploy/Resources/Featherweight/Core/Messaging/Message.Actor/Deploy-FTW-Message-Actor-UnknownMessage.vi"/>
+			<Item Name="Deploy-FTW-Message-Actor.lvclass" Type="LVClass" URL="/&lt;resource&gt;/Framework/Providers/Wirebird Labs LLC/Deploy/Resources/Featherweight/Core/Messaging/Message.Actor/Deploy-FTW-Message-Actor.lvclass"/>
+			<Item Name="Deploy-FTW-Message.lvclass" Type="LVClass" URL="/&lt;resource&gt;/Framework/Providers/Wirebird Labs LLC/Deploy/Resources/Featherweight/Core/Messaging/Message/Deploy-FTW-Message.lvclass"/>
+			<Item Name="Deploy-FTW-Messenger-Actor.lvclass" Type="LVClass" URL="/&lt;resource&gt;/Framework/Providers/Wirebird Labs LLC/Deploy/Resources/Featherweight/Core/Messaging/Messenger.Actor/Deploy-FTW-Messenger-Actor.lvclass"/>
+			<Item Name="Deploy-FTW-Messenger.lvclass" Type="LVClass" URL="/&lt;resource&gt;/Framework/Providers/Wirebird Labs LLC/Deploy/Resources/Featherweight/Core/Messaging/Messenger/Deploy-FTW-Messenger.lvclass"/>
+			<Item Name="Deploy-FTW-NUM-Counter.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Wirebird Labs LLC/Deploy/Resources/Featherweight/Core/Numeric/Deploy-FTW-NUM-Counter.vi"/>
+			<Item Name="Deploy-FTW-NUM-MovingAverage.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Wirebird Labs LLC/Deploy/Resources/Featherweight/Core/Numeric/Deploy-FTW-NUM-MovingAverage.vi"/>
+			<Item Name="Deploy-FTW-Panel-FrontPanel-Close.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Wirebird Labs LLC/Deploy/Resources/Featherweight/UI/Panel/Deploy-FTW-Panel-FrontPanel-Close.vi"/>
+			<Item Name="Deploy-FTW-Panel-FrontPanel-Open.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Wirebird Labs LLC/Deploy/Resources/Featherweight/UI/Panel/Deploy-FTW-Panel-FrontPanel-Open.vi"/>
+			<Item Name="Deploy-FTW-Regex-ReplaceAll.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Wirebird Labs LLC/Deploy/Resources/Featherweight/Core/Regex/Deploy-FTW-Regex-ReplaceAll.vi"/>
+			<Item Name="Deploy-FTW-Regex-ReplaceAndReturn.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Wirebird Labs LLC/Deploy/Resources/Featherweight/Core/Regex/Deploy-FTW-Regex-ReplaceAndReturn.vi"/>
+			<Item Name="Deploy-FTW-Regex.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Wirebird Labs LLC/Deploy/Resources/Featherweight/Core/Regex/Deploy-FTW-Regex.vi"/>
+			<Item Name="Deploy-FTW-Sequencer.lvclass" Type="LVClass" URL="/&lt;resource&gt;/Framework/Providers/Wirebird Labs LLC/Deploy/Resources/Featherweight/Core/Sequencer/Deploy-FTW-Sequencer.lvclass"/>
+			<Item Name="Deploy-FTW-STR-Array-Delimit.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Wirebird Labs LLC/Deploy/Resources/Featherweight/Core/String/Deploy-FTW-STR-Array-Delimit.vi"/>
+			<Item Name="Deploy-FTW-STR-Display-Bytes.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Wirebird Labs LLC/Deploy/Resources/Featherweight/Core/String/Deploy-FTW-STR-Display-Bytes.vi"/>
+			<Item Name="Deploy-FTW-STR-DisplayFormat-Bytes.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Wirebird Labs LLC/Deploy/Resources/Featherweight/Core/String/Deploy-FTW-STR-DisplayFormat-Bytes.ctl"/>
+			<Item Name="Deploy-FTW-STR-Encode-Hex.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Wirebird Labs LLC/Deploy/Resources/Featherweight/Core/String/Deploy-FTW-STR-Encode-Hex.vi"/>
+			<Item Name="Deploy-FTW-STR-Indent.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Wirebird Labs LLC/Deploy/Resources/Featherweight/Core/String/Deploy-FTW-STR-Indent.vi"/>
+			<Item Name="Deploy-FTW-STR-Random-Hex.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Wirebird Labs LLC/Deploy/Resources/Featherweight/Core/String/Deploy-FTW-STR-Random-Hex.vi"/>
+			<Item Name="Deploy-FTW-STR-Repeat.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Wirebird Labs LLC/Deploy/Resources/Featherweight/Core/String/Deploy-FTW-STR-Repeat.vi"/>
+			<Item Name="Deploy-FTW-STR-ReplaceWhitespace.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Wirebird Labs LLC/Deploy/Resources/Featherweight/Core/String/Deploy-FTW-STR-ReplaceWhitespace.vi"/>
+			<Item Name="Deploy-FTW-Time-Display-Elapsed.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Wirebird Labs LLC/Deploy/Resources/Featherweight/Core/Time/Deploy-FTW-Time-Display-Elapsed.vi"/>
+			<Item Name="Deploy-FTW-Time-Display-Timestamp.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Wirebird Labs LLC/Deploy/Resources/Featherweight/Core/Time/Deploy-FTW-Time-Display-Timestamp.vi"/>
+			<Item Name="Deploy-FTW-Time-DisplayFormat-Elapsed.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Wirebird Labs LLC/Deploy/Resources/Featherweight/Core/Time/Deploy-FTW-Time-DisplayFormat-Elapsed.ctl"/>
+			<Item Name="Deploy-FTW-Time-DisplayFormat-Timestamp.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Wirebird Labs LLC/Deploy/Resources/Featherweight/Core/Time/Deploy-FTW-Time-DisplayFormat-Timestamp.ctl"/>
+			<Item Name="Deploy-FTW-Time-Elapse.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Wirebird Labs LLC/Deploy/Resources/Featherweight/Core/Time/Deploy-FTW-Time-Elapse.vi"/>
+			<Item Name="Deploy-FTW-Time-Remaining.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Wirebird Labs LLC/Deploy/Resources/Featherweight/Core/Time/Deploy-FTW-Time-Remaining.vi"/>
+			<Item Name="Deploy-FTW-Time-Timer.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Wirebird Labs LLC/Deploy/Resources/Featherweight/Core/Time/Deploy-FTW-Time-Timer.vi"/>
+			<Item Name="Deploy-FTW-TransferClient-dotNET.lvclass" Type="LVClass" URL="/&lt;resource&gt;/Framework/Providers/Wirebird Labs LLC/Deploy/Resources/Featherweight/Web/Transfer Client/dotNET/Deploy-FTW-TransferClient-dotNET.lvclass"/>
+			<Item Name="Deploy-FTW-TransferClient-TransferProgress.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Wirebird Labs LLC/Deploy/Resources/Featherweight/Web/Transfer Client/Deploy-FTW-TransferClient-TransferProgress.ctl"/>
+			<Item Name="Deploy-FTW-TransferClient-TransferStatus.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Wirebird Labs LLC/Deploy/Resources/Featherweight/Web/Transfer Client/Deploy-FTW-TransferClient-TransferStatus.ctl"/>
+			<Item Name="Deploy-FTW-TransferClient.lvclass" Type="LVClass" URL="/&lt;resource&gt;/Framework/Providers/Wirebird Labs LLC/Deploy/Resources/Featherweight/Web/Transfer Client/Deploy-FTW-TransferClient.lvclass"/>
+			<Item Name="Deploy-FTW-VIServer-AsyncCallOptions.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Wirebird Labs LLC/Deploy/Resources/Featherweight/Core/VI Server/Deploy-FTW-VIServer-AsyncCallOptions.vi"/>
+			<Item Name="Deploy-FTW-VIServer-GetClassDefaultData.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Wirebird Labs LLC/Deploy/Resources/Featherweight/Core/VI Server/Deploy-FTW-VIServer-GetClassDefaultData.vi"/>
+			<Item Name="Deploy-FTW-XML-Construct.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Wirebird Labs LLC/Deploy/Resources/Featherweight/Core/XML/Deploy-FTW-XML-Construct.vi"/>
+			<Item Name="Deploy-FTW-XML-Destroy.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Wirebird Labs LLC/Deploy/Resources/Featherweight/Core/XML/Deploy-FTW-XML-Destroy.vi"/>
+			<Item Name="Deploy-FTW-XML-Element-Append.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Wirebird Labs LLC/Deploy/Resources/Featherweight/Core/XML/Deploy-FTW-XML-Element-Append.vi"/>
+			<Item Name="Deploy-FTW-XML-Element-GetFirstChild.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Wirebird Labs LLC/Deploy/Resources/Featherweight/Core/XML/Deploy-FTW-XML-Element-GetFirstChild.vi"/>
+			<Item Name="Deploy-FTW-XML-Element-GetNextSibling.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Wirebird Labs LLC/Deploy/Resources/Featherweight/Core/XML/Deploy-FTW-XML-Element-GetNextSibling.vi"/>
+			<Item Name="Deploy-FTW-XML-Element-GetValue.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Wirebird Labs LLC/Deploy/Resources/Featherweight/Core/XML/Deploy-FTW-XML-Element-GetValue.vi"/>
+			<Item Name="Deploy-FTW-XML-Query-Elements.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Wirebird Labs LLC/Deploy/Resources/Featherweight/Core/XML/Deploy-FTW-XML-Query-Elements.vi"/>
+			<Item Name="Deploy-FTW-XML-Query-ElementValue.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Wirebird Labs LLC/Deploy/Resources/Featherweight/Core/XML/Deploy-FTW-XML-Query-ElementValue.vi"/>
+			<Item Name="Deploy-FTW-XML-Query-FirstElement.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Wirebird Labs LLC/Deploy/Resources/Featherweight/Core/XML/Deploy-FTW-XML-Query-FirstElement.vi"/>
+			<Item Name="Deploy-FTW-XML-Query-UpdateFirstElementXML.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Wirebird Labs LLC/Deploy/Resources/Featherweight/Core/XML/Deploy-FTW-XML-Query-UpdateFirstElementXML.vi"/>
+			<Item Name="Deploy-Release-Meta.lvclass" Type="LVClass" URL="/&lt;resource&gt;/Framework/Providers/Wirebird Labs LLC/Deploy/Support/Release/Meta/Deploy-Release-Meta.lvclass"/>
+			<Item Name="Deploy-Release.lvclass" Type="LVClass" URL="/&lt;resource&gt;/Framework/Providers/Wirebird Labs LLC/Deploy/Support/Release/Deploy-Release.lvclass"/>
+			<Item Name="Deploy-ReleaseManifest.lvclass" Type="LVClass" URL="/&lt;resource&gt;/Framework/Providers/Wirebird Labs LLC/Deploy/Support/Release Manifest/Deploy-ReleaseManifest.lvclass"/>
 			<Item Name="Deploy-Update-CreateAppMutex.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Wirebird Labs LLC/Deploy/Support/Update/Deploy-Update-CreateAppMutex.vi"/>
-			<Item Name="Deploy-UpdateService-CheckNow.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Wirebird Labs LLC/Deploy/support/Update Service/Deploy-UpdateService-CheckNow.vi"/>
-			<Item Name="Deploy-UpdateService-LaunchUI-Async.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Wirebird Labs LLC/Deploy/support/Update Service/Deploy-UpdateService-LaunchUI-Async.vi"/>
-			<Item Name="Deploy-UpdateService-Start.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Wirebird Labs LLC/Deploy/support/Update Service/Deploy-UpdateService-Start.vi"/>
-			<Item Name="Deploy-UpdateService-Stop.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Wirebird Labs LLC/Deploy/support/Update Service/Deploy-UpdateService-Stop.vi"/>
+			<Item Name="Deploy-Update-DefaultLocalCache.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Wirebird Labs LLC/Deploy/Support/Update/Deploy-Update-DefaultLocalCache.vi"/>
 			<Item Name="Deploy-UpdateService.lvclass" Type="LVClass" URL="/&lt;resource&gt;/Framework/Providers/Wirebird Labs LLC/Deploy/Support/Update Service/Deploy-UpdateService.lvclass"/>
 			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
